@@ -1,0 +1,49 @@
+/* Header */
+
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+}
+.logo span {
+  display: flex;
+  color: MediumAquaMarine
+}
+
+.logo img {
+
+}
+nav span {
+  display: inline-block;
+}
+header nav {
+  display: flex;
+}
+
+/* Main content container */
+
+.content {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: 
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small{
+  width: 240px;
+}
