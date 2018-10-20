@@ -1,28 +1,53 @@
+/* Universal Styles*/
+body{
+
+}
+
+a {
+  color: black;
+}
 /* Header */
+div {
+  border: 1px solid black;
+}
+
+/*Header */
 
 header {
+  border: 1px solid black;
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  padding: 20px 10px;
 }
 
 .logo {
+  border: none;
   display: flex;
+  flex-grow: 1;
+  align-items: center;
+  padding-left: 30px;
 }
+
 .logo span {
-  display: flex;
-  color: MediumAquaMarine
+  color: mediumaquamarine;
+  padding: 20px 10px;
 }
 
 .logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
 
 }
-nav span {
-  display: inline-block;
-}
 header nav {
-  display: flex;
+  padding-right: 40px;
 }
 
 /* Main content container */
@@ -33,17 +58,27 @@ header nav {
 
 .column {
   display: flex;
-  flex-direction: 
+  flex-direction: column;
+  margin-right: 32px;
 }
+
+/* First News Column */
 
 .column.large {
   width: 630px;
+}
+.lead-story .image-content {
+background-image: url(
+https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png)}
+
+.lead-story .image-content span {
+  margin-left: 20px;
 }
 
 .column.medium {
   width: 300px;
 }
 
-.column.small{
+.column.small {
   width: 240px;
 }
